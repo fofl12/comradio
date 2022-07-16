@@ -110,6 +110,17 @@ Users may use nicknames using the Nickname field. The original username of the a
 }
 ```
 
+### Blocking (revision 2.1)
+Users may block other users and announce their block using the following example
+```
+{
+	"Type": "block",
+	"Content": "2", // id of user being blocked
+	"Author": "1",
+	"Comment": "existing" // optional
+}
+```
+
 ## Security issues
 
 ### Impersonation
